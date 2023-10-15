@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./imagenes/logo.png">
+    <title>Spotify Premium</title>
+</head>
+<body>
+    <div class="container__ad"> 
+        <div class="ad">
+            <a href="#">Colombia (English)</a>
+            <button class="close__ad btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+              </svg></button>
+        </div>
+        
+    </div>
+    <header class="header">
+        <div class="container__header">
+            <figure class="header__picture">
+                <img src="./imagenes/Spotify_Logo_RGB_White.png" alt="img" class="header__img">
+            </figure>
+            <button class="open__menu btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg></button>
+            <nav class="header__enlaces">
+                <div class="enlaces">
+                    <a href="#" class="enlace link">Premium</a>
+                    <a href="#" class="enlace link">Ayuda</a>
+                    <a href="#" class="enlace link">Descargar</a>
+                    <p class="barra__vertical">|</p>
+                    <p class="barra__horizontal" role="separator">_</p>
+                    <a href="#" class="enlace user">Registrarse</a>
+                    <a href="#" class="enlace user">Iniciar sesión</a>
+
+                    <figure class="picture">
+                        <img src="./imagenes/Spotify_Logo_RGB_White.png" alt="img" class="header__img">
+                    </figure>
+                </div>
+                <button class="close__menu btn"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                  </svg></button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero"> 
+        <div class="hero_container">
+            <h1 class="hero__title">Obtén Premium gratis por dos meses</h1>
+            <h2 class="hero__subtitle">Después, solo cuesta $ 16.900,00 al mes. Cancela cuando quieras.</h2>
+            
+            <div class="botones_hero">
+                <button class="boton empezar">Empezar</button>
+                <button class="boton verPlanes"><a href="#EligeTuPlan">Ver planes</a></button>
+            </div>
+            
+            <p class="hero_p"><a href="#">Se aplican Términos y Condiciones</a>. Los 2 meses gratis no están disponibles para los usuarios que ya hayan probado Premium.</p>
+        </div>
+    </section>
+
+    <section class="premium">
+        <h2>¿Por qué cambiarse a Premium?</h2>
+        <div class="container__premium">
+            <div class="container__imagenes">
+                <figure class="container__img">
+                    <img src="./imagenes/descarga.png" alt="img1" class="img1">
+                    <h3>Descarga tu música.</h3>
+                    <p>Escúchala desde cualquier lugar.</p>
+                </figure>
+            </div>
+            <div class="container__imagenes">
+                <figure class="container__img">
+                    <img src="./imagenes/escucha.png" alt="" class="img2">
+                    <h3>Escucha música sin anuncios.</h3>
+                    <p>Disfruta de tu música sin interrupciones.</p>
+                </figure>
+            </div>
+            <div class="container__imagenes">
+                <figure class="container__img">
+                    <img src="./imagenes/reproduce.png" alt="">
+                    <h3>Reproduce canciones en el orden que quieras.</h3>
+                    <p>Cualquier canción en cualquier orden.</p>
+                </figure>
+            </div>
+            <div class="container__imagenes">
+                <figure class="container__img">
+                    <img src="./imagenes/mejor.png" alt="">
+                    <h3>Mejor calidad de sonido.</h3>
+                    <p>Siente el sonido.</p>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="container__eligeTuPlan">
+        <div class="container__promos">
+            <h2 id="EligeTuPlan">Elige tu plan Premium</h2>
+            <p>Escucha sin límites en tu teléfono, tus altavoces y otros dispositivos.</p>
+            <div class="tiposDePago">
+                <figure class="container__pagoImg">
+                    <img src="./imagenes/VISA-Logo.jpg" class="img"/>
+                </figure>
+                <figure class="container__pagoImg">
+                    <img src="./imagenes/mastercard-logo.png" class="img"/>
+                </figure>
+                <figure class="container__pagoImg amex">
+                    <img src="./imagenes/amex-logo.png" class="img amex"/>
+                </figure>
+                <figure class="container__pagoImg">
+                    <img src="./imagenes/diners-logo.png" class="img_diners"/>
+                </figure>
+                <figure class="container__pagoImg paypal">
+                    <img src="./imagenes/paypal-logo.png" class="img paypal"/>
+                </figure>
+                <div class="dosmas">+2 más
+                    <div class="efecty_pse">
+                        <figure class="container__efecty">
+                            <img src="./imagenes/efecty-logo.png" class="img_efecty_pse"/>
+                        </figure>
+                        <figure class="container__epse">
+                            <img src="./imagenes/pse-logo.png" class="img_efecty_pse"/>
+                        </figure>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="promos">
+                <div class="promo">
+                    <div class="primera__parte">
+                        <div>
+                            <p class="gratis">2 meses gratis con suscripción</p>
+                            <p class="disponibles">Opciones de prepago disponibles</p>
+                        </div>
+                      
+                        <h3>Individual</h3>
+                        <div class="texto">
+                            <p>Después del período de la oferta, $ 16.900,00 al mes</p>
+                            <p>1 cuenta</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="segunda_parte">
+                        <ul class="container__list">
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div>Escucha música sin anuncios</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Reproduce tus canciones en cualquier lugar, incluso sin conexión</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Reproduce canciones en el orden que quieras</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Usa la opción prepaga o suscríbete</li>
+                        </ul>
+                    </div>
+
+                    <div class="boton__comenzar">
+                        <button class="Empezar">Empezar</button>
+                    </div>
+                    
+                    <p class="términos"><a href="#">Se aplican Términos y Condiciones</a>. Los 2 meses gratis no están disponibles para los usuarios que ya hayan probado Premium.</p>
+                </div>
+                <div class="promo">
+                    <div class="primera__parte">
+                        <div>
+                            <p class="gratis">1 mes gratis con suscripción.</p>
+                            <p class="disponibles">Planes prepagos disponibles</p>
+                        </div>
+                      
+                        <h3>Duo</h3>
+                        <div class="texto">
+                            <p>Desde $ 21.400,00 al mes después del período de la oferta</p>
+                            <p>2 cuentas</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="segunda_parte">
+                        <ul class="container__list">
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> 2 cuentas Premium para parejas que conviven</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Escucha música sin anuncios, disfruta contenido en modo offline y reproduce las canciones en cualquier orden</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Usa la opción prepaga o suscríbete</li>
+                        </ul>
+                    </div>
+
+                    <div class="boton__comenzar">
+                        <button class="Empezar">Empezar</button>
+                    </div>
+                    
+                    <p class="términos"><a href="#">Se aplican Términos y Condiciones</a>. El mes gratis no está disponible para los usuarios que ya han probado Premium.</p>
+                </div>
+                <div class="promo">
+                    <div class="primera__parte">
+                        <div>
+                            <p class="gratis">2 meses gratis con suscripción</p>
+                            <p class="disponibles">Opciones de prepago disponibles</p>
+                        </div>
+                      
+                        <h3>Familiar</h3>
+                        <div class="texto">
+                            <p>Después del periodo de la oferta, $ 26.400,00 al mes</p>
+                            <p>Hasta 6 cuentas</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="segunda_parte">
+                        <ul class="container__list">
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> 6 cuentas Premium para familiares que conviven</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Bloquea la música explícita</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Escucha música sin anuncios, disfruta contenido en modo offline y reproduce las canciones en cualquier orden</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Usa la opción prepaga o suscríbete</li>
+                        </ul>
+                    </div>
+
+                    <div class="boton__comenzar">
+                        <button class="Empezar">Empezar</button>
+                    </div>
+                    
+                    <p class="términos"><a href="#">Se aplican Términos y Condiciones</a>. El mes gratis no está disponible para los usuarios que ya han probado Premium.</p>
+                </div>
+                <div class="promo">
+                    <div class="primera__parte">
+                        <div>
+                            <p class="gratis">2 meses gratis con suscripción</p>
+                            <p class="disponibles">Opciones de prepago disponibles</p>
+                        </div>
+                      
+                        <h3>Universitario</h3>
+                        <div class="texto">
+                            <p>Después del periodo de la oferta, cuesta $ 9.300,00 al mes</p>
+                            <p>1 cuenta</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="segunda_parte">
+                        <ul class="container__list">
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Descuento especial para estudiantes universitarios que cumplen los requisitos</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Escucha música sin anuncios</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Reproduce tus canciones en cualquier lugar, incluso sin conexión</li>
+                            <li><div class="check"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                              </svg></div> Reproduce canciones en el orden que quieras</li>
+                        </ul>
+                    </div>
+
+                    <div class="boton__comenzar">
+                        <button class="Empezar">Empezar</button>
+                    </div>
+                    
+                    <p class="términos"><a href="#">Se aplican Términos y Condiciones</a>.  Plan disponible solo para estudiantes de instituciones de educación superior aprobadas. Después del período de prueba, se aplicará una tarifa mensual de $ 9.300,00.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container__footer">
+
+            <div class="up">
+                <figure class="footer__logo">
+                    <img src="./imagenes/Spotify_Logo_RGB_White.png" alt="img" class="footer__img">
+                </figure>
+
+                <div class="opciones">
+                    <div class="compañia">
+                        <ul>
+                            <li class="titulo">COMPAÑIA</li>
+                            <li class="verde">Acerca de</li>
+                            <li class="verde">Empleo</li>
+                            <li class="verde">Fot the Record</li>
+                        </ul>
+                    </div>
+                    <div class="comunidades">
+                        <ul>
+                            <li class="titulo">COMUNIDADES</li>
+                            <li class="verde">Servicios para artistas</li>
+                            <li class="verde">Desarrolladores</li>
+                            <li class="verde">Publicidad</li>
+                            <li class="verde">Inversionistas</li>
+                            <li class="verde">Proveedores</li>
+                        </ul>
+                    </div>
+                    <div class="enlaces_utiles">
+                        <ul>
+                            <li class="titulo">ENLACES ÚTILES</li>
+                            <li class="verde">Ayuda</li>
+                            <li class="verde">Reproductor web</li>
+                            <li class="verde">App móvil gratis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="redes">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                </div>
+            </div>
+            
+            <div class="down">
+                <div class="otros">
+                    <ul>
+                        <li>Legal</li>
+                        <li>Centro de privacidad</li>
+                        <li>Política de Privacidad</li>
+                        <li>Cookies</li>
+                        <li>Sobre los anuncios</li>
+                        <li>Accesibilidad</li>
+                    </ul>
+                </div>
+    
+                <div class="ultimos">
+                    <div class="colombia">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+                          </svg> <p class="verde"> Colombia</p>
+                    </div>
+                    <div class="copyright">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                          </svg>
+                          <p>pagina ficticia</p> 
+                    </div>
+            </div>
+            
+           
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
